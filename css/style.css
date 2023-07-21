@@ -1,0 +1,716 @@
+@import URL('https://fonts.googleapis.com/css2? family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+/*font-family: 'Noto Sans KR', 산세리프;
+font-family: 'Aclonica', sans-serif;*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans KR', 산세리프;
+    transition: all 0.7s;
+}
+li{
+    list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;sss
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+figure{
+    margin: 0;
+}
+html{
+    font-size: 15px;
+}
+header{
+    width: 100%;
+    height: 15vh;
+}
+header .top{
+    width: 80%;
+    height: 15vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+header .top h1{
+    width: fit-content;
+    height: fit-content;
+}
+header .top ul{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+header .top .side{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+header .top button{
+    border: none;
+    background-color: transparent;
+    display: none;
+    margin-top: 2%;
+}
+.menu{
+    width: 50vw;
+    height: 100%;
+    position: fixed;
+    display: none;
+    right: -100%;
+    top: 0;
+    background-color: #ffffffc3;
+    z-index: 999;
+}
+.menu button{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    display: block;
+    top: 30px;
+    right: 20px;
+}
+.menu ul{
+    width: 40vw;
+    height: 35%;
+    margin-top: 40%;
+    margin-left: 10%;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main{
+    margin-bottom: 25vh;
+}
+.section01{
+    width: 100%;
+    height: auto;
+    margin-bottom: 25vh;
+}
+.section01 .glass h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #8AB5FF;
+    margin-bottom:2vw;
+}
+.section01 .glass .row .col-6 .gbox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.section01 .glass .row .col-6 .gbox figure{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+}
+.section01 .glass .row .gbox p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 1.3rem;
+    font-family: 'Aclonica', sans-serif;
+    text-align: center;
+}
+.section01 .glass .row .gsub{
+    display: flex;
+    justify-content: space-between;
+}
+.section01 .glass .row .gsub figure{
+    width: 50%;
+    height: fit-content;
+}
+.section01 .glass .row .gsub .text{
+    margin: auto auto;
+    text-align: center;
+    width: 50%;
+    height: fit-content;
+}
+.section01 .glass .row .gsub .text h4{
+    font-family: 'Aclonica', sans-serif;
+    margin-bottom: 3vw;
+}
+.section01 .glass .row .gsub .text p{
+    font-family: 'Aclonica', sans-serif;
+}
+.section02{
+    width: 100%;
+    height: auto;
+    margin-bottom: 25vh;
+}
+.section02 .suede h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #D1C5B7;
+    margin-bottom:2vw;
+    text-align: right;
+}
+.section02 .suede .row .ssub{
+    display: flex;
+    justify-content: space-between;
+}
+.section02 .suede .row .ssub figure{
+    width: 50%;
+    height: fit-content;
+}
+.section02 .suede .row .ssub .text{
+    margin: auto auto;
+    text-align: center;
+    width: 50%;
+    height: fit-content;
+}
+.section02 .suede .row .ssub .text h4{
+    font-family: 'Aclonica', sans-serif;
+    margin-bottom: 3vw;
+}
+.section02 .suede .row .ssub .text p{
+    font-family: 'Aclonica', sans-serif;
+}
+.section02{
+    width: 100%;
+    height: auto;
+    margin-bottom: 25vh;
+}
+.section02 .suede .row .col-6 .sbox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.section02 .suede .row .col-6 .sbox figure{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+}
+.section02 .suede .row .sbox p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 1.3rem;
+    font-family: 'Aclonica', sans-serif;
+    text-align: center;
+}
+.best{
+    margin-bottom: 25vh;
+}
+.best h2{
+    margin-bottom: 10vw;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.best .box .text a>span{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    display: block;
+}
+.best .box .text p{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 300;
+}
+.best .box .text p>span{
+    font-weight: 600;
+}
+.section03title h2{
+    margin-bottom: 2vw;
+    text-align: center;
+    font-weight: bold;
+    color: #8AB5FF;
+    font-size: 3rem;
+}
+.section03{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../img/brand배경이미지.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 25vh;
+    position: relative;
+}
+.section03 .brand{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto auto;
+    color: white;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.section03 .brand>p{
+    margin-top: 3%;
+}
+.kakao{
+    margin-bottom: 25vh;
+}
+.kakao>img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10vw;
+}
+.kakao .row .col-md-4 .box .text p{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 5%;
+}
+.kakao .row .col-md-4 .box .text p>span{
+    color:#FEDA00;
+    font-size: 1.3rem;
+}
+.view{
+    margin-bottom: 200px;
+}
+.view h2{
+    margin-bottom: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.view .row .col-12 span{
+    font-weight: 700;
+    font-size: 23px;
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.view .row .col-12 .video{
+    position: relative;
+    padding-bottom:56.25%;
+}
+.view .row .col-12 .video iframe{
+    position: absolute;
+    top: 0;
+    left: 0 ;
+    right: 0;
+    bottom: 0;
+    width:100%;
+    height: 100%;
+}
+footer{
+    width: 100%;
+    background-color: #8AB5FF;
+}
+footer .bottom .row1 .col-5{
+    margin-top: 5%;
+    width: fit-content;
+    height: fit-content;
+}
+footer .bottom .row1 .col-3{
+    margin-top: 5%;
+}
+footer .bottom .row1 .col-3 p>span{
+    font-weight: 900;
+    font-size: 1rem;
+}
+footer .bottom .row1 .col-3 p{
+    font-size: 1rem;
+    color: white;
+}
+footer .bottom .row1 .col-2{
+    margin-top: 5%;
+    color: white;
+}
+footer .bottom .row1 .col-2 span{
+    font-weight: 900;
+    font-size: 1rem;
+    color: white;
+}
+footer .bottom .row1 .col-2 ul{
+    font-size: 1rem;
+}
+footer .bottom .row2 .col-9{
+    font-size: 1rem;
+    color: white;
+}
+footer .bottom .row1{
+    display: flex;
+    justify-content: space-between;
+}
+footer .bottom .row2 .col-8{
+    display: flex;
+    justify-content: flex-start;
+}
+footer .bottom .row2 .col-8 .sns{
+    margin-right: 2vw;
+}
+footer .bottom .row2 .col-8 a{
+    display: block;
+    width: 80%;
+}
+@media screen and (min-width:992px) and (max-width:1200px){
+    /*lg*/
+    header .top h1{
+        width: 170px;
+    }
+    header .top ul{
+        font-size: 18px;
+    }
+    
+}
+@media screen and (min-width:720px) and (max-width:991px){
+    /*md*/
+    header .top h1{
+        width: 130px;
+    }
+    header .top ul{
+        font-size: 13px;
+    }
+    header .top .side img{
+        width: 20px;
+    }
+    .section01 .glass .row .gbox{
+        margin-bottom: 5%;
+    }
+    .section01 .glass .row .gsub .text h4{
+        font-size: 1.2rem;
+    }
+    .section01 .glass .row .gsub .text p{
+        font-size: 1rem;
+    }
+    .section02 .suede .row .ssub .text h4{
+        font-size: 1.2rem;
+    }
+    .section02 .suede .row .ssub .text p{
+        font-size: 1rem;
+    }
+    .section02 .suede .row .sbox{
+        margin-top: 5%;
+    }
+    .best .box .text a>span{
+        font-size: 1.1rem;
+    }
+    .best .box .text p{
+        font-size: 0.9rem;
+    }
+    .section03 .brand figure{
+        width: 220px;
+        margin-right: 10%;
+    }
+    .section03 .brand p{
+        font-size: 0.9rem;
+    }
+    .kakao>img{
+        width: 280px;
+    }
+    .kakao .row .col-md-4 .box .text p{
+        font-size: 1rem;
+    }
+    .kakao .row .col-md-4 .box .text p>span{
+        font-size: 1rem;
+    }
+    .view .row .col-12 span{
+        font-size: 1.1rem;
+        margin-bottom: 10%;
+    }
+    .view .row .col-12 p{
+        font-size: 1rem;
+    }
+    footer .bottom .row1 .col-3 p>span{
+        font-size: 0.8rem;
+    }
+    footer .bottom .row1 .col-3 p{
+        font-size: 0.8rem;
+    }
+    footer .bottom .row1 .col-2 span{
+        font-size: 0.8rem;
+    }
+    footer .bottom .row1 .col-2 ul{
+        font-size: 0.8rem;
+    }
+    footer .bottom .row2 .col-9{
+        font-size: 0.8rem;
+    }
+    footer .bottom .row2 .col-5 img{
+        width: 170px;
+    }
+
+}
+@media screen and (min-width:540px) and (max-width:719px){
+    /*sm*/
+    header .top h1{
+        width: 140px;
+    }    
+    header .top ul{
+        display: none;
+    }
+    header .top button{
+        display: block;
+        width: 25px;
+    }
+    header .top .side{
+        width: 35%;
+    }
+    header .top .side img{
+        width: 25px;
+    }
+    .section01 .glass h2{
+        font-size: 2.7rem;
+    }
+    .section01 .glass .row .gbox{
+        margin-bottom: 5%;
+    }
+    .section01 .glass .row .gsub .text h4{
+        font-size: 1.2rem;
+    }
+    .section01 .glass .row .gsub .text p{
+        font-size: 1rem;
+    }
+    .section02 .suede h2{
+        font-size: 2.7rem;
+    }
+    .section02 .suede .row .sbox{
+        margin-top: 5%;
+    }
+    .section02 .suede .row .ssub .text h4{
+        font-size: 1.2rem;
+    }
+    .section02 .suede .row .ssub .text p{
+        font-size: 1rem;
+    }
+    .best .box .text a>span{
+        font-size: 1.1rem;
+    }
+    .best .box .text p{
+        font-size: 0.9rem;
+    }
+    .section03title h2{
+        font-size: 2.7rem;
+    }
+    .section03 .brand figure{
+        width: 200px;
+        margin-right: 10%;
+    }
+    .best h2{
+        font-size: 2.7rem;
+    }
+    .section03 .brand p{
+        font-size: 0.7rem;
+    }
+    .kakao>img{
+        width: 240px;
+    }
+    .kakao .row .col-md-4 .box .text p{
+        font-size: 0.9rem;
+    }
+    .kakao .row .col-md-4 .box .text p>span{
+        font-size: 0.9rem;
+    }
+    .view h2{
+        font-size: 2.7rem;
+    }
+    .view .row .col-12 span{
+        font-size: 1rem;
+        margin-bottom: 8%;
+    }
+    .view .row .col-12 p{
+        font-size: 0.9rem;
+    }
+    footer .bottom .row2 .col-9{
+        font-size: 0.6rem;
+    }
+    footer .bottom .row1 .col-2 span{
+        font-size: 0.6rem;
+    }
+    footer .bottom .row1 .col-2 ul{
+        font-size: 0.6rem;
+    }
+    footer .bottom .row1 .col-3 p{
+        font-size: 0.6rem;
+    }
+    footer .bottom .row .col-3 p>span{
+        font-size: 0.6rem;
+    }
+}
+@media screen and (max-width:539px){
+    /*col*/
+    header .top h1{
+        width: 120px;
+    }
+    header .top ul{
+        display: none;
+    }
+    header .top button{
+        display: block;
+        width: 20px;
+    }
+    header .top .side{
+        width: 33%;
+    }
+    header .top .side img{
+        width: 20px;
+    }
+    .gsub .text h4{
+        font-size: 17px;
+    }
+    .gsub .text p{
+        font-size: 14px;
+    }
+    .ssub .text h4{
+        font-size: 17px;
+    }
+    .ssub .text p{
+        font-size: 14px;
+    }
+    .section01 .glass h2{
+        font-size: 2.3rem;
+    }
+    .section01 .glass .row .gbox{
+        margin-bottom: 5%;
+    }
+    .section02 .suede h2{
+        font-size: 2.3rem;
+    }
+    .section02 .suede .row .sbox{
+        margin-top: 5%;
+    }
+    .best h2{
+        font-size: 2.3rem;
+    }
+    .best .box .text a>span{
+        font-size: 1rem;
+    }
+    .best .box .text p{
+        font-size: 0.8rem;
+    }
+    .section03title h2{
+        font-size: 2.3rem;
+    }
+    .section03 .brand figure{
+        width: 180px;
+        margin-right: 10%;
+    }
+    .section03 .brand p{
+        font-size: 0.5rem;
+    }
+    .kakao>img{
+        width: 220px;
+    }
+    .kakao .row .col-md-4 .box .text p{
+        font-size: 0.8rem;
+    }
+    .kakao .row .col-md-4 .box .text p>span{
+        font-size: 0.8rem;
+    }
+    .view h2{
+        font-size: 2.3rem;
+    }
+    .view .row .col-12 span{
+        font-size: 0.9rem;
+        margin-bottom: 3%;
+    }
+    .view .row .col-12 p{
+        font-size: 0.8rem;
+    }
+    footer .bottom .row2 .col-9{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width:395px){
+    /*mobile*/
+    header .top h1{
+        width: 115px;
+    }
+    header .top ul{
+        display: none;
+    }
+    header .top button{
+        display: block;
+        width: 20px;
+    }
+    header .top .side{
+        width: 30%;
+    }
+    header .top .side img{
+        width: 20px;
+    }
+    .gsub{
+        width: 364px;
+    }
+    .gsub img{
+        width: 182px;
+    }
+    .ssub{
+        width: 364px;
+    }
+    .gsub .text h4{
+        font-size: 15px;
+    }
+    .gsub .text p{
+        font-size: 12px;
+    }
+    .ssub .text h4{
+        font-size: 15px;
+    }
+    .ssub .text p{
+        font-size: 12px;
+    }
+    .section01 .glass h2{
+        font-size: 1.8rem;
+    }
+    .section01 .glass .row .gbox{
+        margin-bottom: 5%;
+    }
+    .section02 .suede h2{
+        font-size: 2.3rem;
+    }
+    .section02 .suede h2{
+        font-size: 1.8rem;
+    }
+    .best h2{
+        font-size: 1.8rem;
+    }
+    .section03title h2{
+        font-size: 1.8rem;
+    }
+    .section03 .brand figure{
+        width: 160px;
+        margin-right: 10%;
+    }
+    .section03 .brand p{
+        font-size: 0.5rem;
+    }
+    .kakao>img{
+        width: 200px;
+    }
+    .view h2{
+        font-size: 1.8rem;
+    }
+    .view .row .col-12 span{
+        font-size: 0.9rem;
+        margin-bottom: 3%;
+    }
+    .view .row .col-12 p{
+        font-size: 0.8rem;
+    }
+    footer .bottom .row2 .col-9{
+        font-size: 0.5rem;
+    }
+    footer .bottom .row1 .col-2 span{
+        font-size: 0.4rem;
+    }
+    footer .bottom .row1 .col-2 ul{
+        font-size: 0.4rem;
+    }
+    footer .bottom .row1 .col-3 p{
+        font-size: 0.4rem;
+    }
+    footer .bottom .row1 .col-3 p>span{
+        font-size: 0.4rem;
+    }
+}
